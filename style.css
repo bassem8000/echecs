@@ -1,0 +1,73 @@
+.blanc{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.noir{
+    font-size: 40px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.conteneur {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px ;
+}
+
+.box {
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+.bouton{
+    text-align: center;
+}
+
+.barre{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0px; /* Espacement entre les cellules */
+    width: 0px; /* Largeur de la grille */
+    margin: auto; /* Centrer la grille */
+
+}
+
+.cellule {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+h1{
+    text-align: center;
+    color: #c9c6a6;
+    font-size: 45px;
+}
